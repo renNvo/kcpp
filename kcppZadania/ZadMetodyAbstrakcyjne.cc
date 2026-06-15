@@ -22,7 +22,7 @@ public:
     }
     double Obwod() const override { return a + b + c; }
     double Pole() const override { return 0.5 * a * b; }
-    void Narysuj() const override { cout << "Przepis na narysowanie trojkata" << endl; }
+    void Narysuj() const override { cout << "Kwadrat -> Pole: " << objKwadrat->Pole() << ", Obwod: " << objKwadrat->Obwod() << "\n\n" << endl; }
 };
 
 class Kwadrat : public Figura {
