@@ -13,8 +13,8 @@ double ZadPrzeciazaniePotega::potega(double podstawa, int wykladnik) {
 }
 
 void ZadPrzeciazaniePotega::wykonaj() {
-    cout << "Potega int: " << potega(2, 10) << endl;
-    cout << "Potega double: " << potega(2.5, 10) << endl;
+    cout << "Potega int 2^10: " << potega(2, 10) << endl;
+    cout << "Potega double 2.5^10: " << potega(2.5, 10) << endl;
 }
 
 std::string ZadPrzeciazaniePotega::info() const {
